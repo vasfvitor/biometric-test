@@ -6,15 +6,18 @@ settings:
 
 dependencies:
   '@tauri-apps/api':
-    specifier: '>=2.0.0-beta.0'
+    specifier: 2.0.0-beta.15
     version: 2.0.0-beta.15
+  '@tauri-apps/plugin-biometric':
+    specifier: 2.0.0-beta.7
+    version: 2.0.0-beta.7
   '@tauri-apps/plugin-shell':
     specifier: '>=2.0.0-beta.0'
     version: 2.0.0-beta.8
 
 devDependencies:
   '@tauri-apps/cli':
-    specifier: '>=2.0.0-beta.0'
+    specifier: 2.0.0-beta.22
     version: 2.0.0-beta.22
   internal-ip:
     specifier: ^7.0.0
@@ -474,6 +477,12 @@ packages:
       '@tauri-apps/cli-win32-ia32-msvc': 2.0.0-beta.22
       '@tauri-apps/cli-win32-x64-msvc': 2.0.0-beta.22
     dev: true
+
+  /@tauri-apps/plugin-biometric@2.0.0-beta.7:
+    resolution: {integrity: sha512-6C9Tn7QIsv4fGmzCgQ/Hev4FzzDFWq/cANj+JZ4PGfOLDZtm02oUVUm7nRJZ5SAAoO/nZam53jYQxpzZcob9WQ==}
+    dependencies:
+      '@tauri-apps/api': 2.0.0-beta.15
+    dev: false
 
   /@tauri-apps/plugin-shell@2.0.0-beta.8:
     resolution: {integrity: sha512-rFXI6MvsCdSGbuKbDu/NaOePREb9YTVTdeugHdvvljnKWW3dvmThBb2h/8Hxj+Z7Cd8MUoRxPeJWUZbPbJ2Imw==}
